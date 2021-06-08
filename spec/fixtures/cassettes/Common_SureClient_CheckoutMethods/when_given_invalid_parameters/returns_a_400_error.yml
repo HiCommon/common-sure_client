@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sureapp.com/api/partner/v1.1/protections/renters/checkout
+    body:
+      encoding: UTF-8
+      string: '{"property_address":{"street_address":"355 South End Avenue","unit":"","city":"New
+        York","region":"NY","country_code":"US"},"details":{"pni_first_name":"Art","pni_last_name":"Garfunkel","pni_phone_number":"212-889-7766","has_mailing_address":false,"dwelling_type":"A","mandatory_insurance_requirement":true,"number_of_losses":"0","animal_injury":false,"has_sni":false,"has_intrested_party":false,"property_special_city":"New
+        York"},"settings":{"policy_effective_date":"2019-08-23","personal_property_coverage":10000,"all_peril_deductible":500,"hurricane_deductible":null,"liability_limit":100000,"medical_limit":null,"include_pet_damage":false,"include_water_backup":false,"include_identity_fraud":false,"include_replacement_cost":true},"plan_id":"5a64bf5a0eccd83bb79fbaf5","quote_id":"QRASU9LKLRZ","email":"art@ucnle.com","payment_cadence":null}'
+    headers:
+      Authorization:
+      - Token p1hIJDYFkfpiPrA92Q73WX0FzlMROye8STmwt6xuLN5fcKGaj
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 13 Aug 2019 22:05:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '150'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With,
+        X-Auth-Token, X-Environment, X-Unique-Key
+      Access-Control-Expose-Headers:
+      - X-Request-ID, X-Total-Rows
+      Access-Control-Allow-Methods:
+      - POST, OPTIONS
+      X-Request-Id:
+      - hrq_5fc518904fb3408b82b875d418f776ab
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"error": {"message": "We could not accept your request", "code": "invalid_input",
+        "fields": {"property_address__postal": "Postal field is missing"}}}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 22:05:44 GMT
+recorded_with: VCR 5.0.0

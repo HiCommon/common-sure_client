@@ -1,0 +1,537 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sureapp.com/api/partner/v1.1/protections/renters/plans
+    body:
+      encoding: UTF-8
+      string: '{"property_address":{"street_address":"7400 River Road","city":"North
+        Bergen","region":"NJ","postal":"07047","country_code":"US"}}'
+    headers:
+      Authorization:
+      - Token p1hIJDYFkfpiPrA92Q73WX0FzlMROye8STmwt6xuLN5fcKGaj
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Aug 2019 22:01:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '38359'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With,
+        X-Auth-Token, X-Environment, X-Unique-Key
+      Access-Control-Expose-Headers:
+      - X-Request-ID, X-Total-Rows
+      Access-Control-Allow-Methods:
+      - POST, OPTIONS
+      X-Request-Id:
+      - hrq_96e839471390483d90739fa9b45b904a
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"settings": {"display_html": null, "currency": {"symbol": "$", "code":
+        "USD"}}, "plans": [{"plan_id": "5a64bf5a0eccd83bb79fbaf5", "information":
+        {"most_popular": false, "title": "Renters", "subtitle": null, "summary_html":
+        null, "full_html": null, "pricing_title": null, "pricing_notification": "",
+        "bottom_text": "Assurant is the holding company for various underwriting entities
+        that provide Renters Insurance. In all states, except Minnesota and Texas,
+        Renters Insurance is underwritten by American Bankers Insurance Company of
+        Florida with its home office in Miami, Florida (ABIC NAIC# 10111). In Minnesota,
+        the underwriter is American Security Insurance Company. In Texas, the renters
+        property insurance is underwritten by Ranchers and Farmers Mutual Insurance
+        Company. Each insurer has sole responsibility for its own products. In Utah,
+        coverage is provided under policy form AJ8850PC-0307. Sold by Sure HIIS Insurance
+        Services, LLC.", "acknowledgment_html": "I acknowledge that I have read and
+        understand all applicable <a href=\"https://sure-media.s3.amazonaws.com/html/assurant-disclosures.html\"
+        target=\"_blank\" rel=\"noopener noreferrer\">state disclosures, fraud notices,
+        the notice of cancellation</a>, and the <a href=\"https://sure-media.s3.amazonaws.com/html/assurant-electronic-business-consent.html\"
+        target=\"_blank\" rel=\"noopener noreferrer\">electronic business consent</a>."},
+        "policy_doc_url": "https://s3.amazonaws.com/sure-media/pdf/policy/8c75e/4baf5/5995ccdd4600a0040c48699e/policy.pdf",
+        "details": {"personal_property_coverage": {"title": "Personal Property", "description":
+        "Personal Property coverage pays for your personal belongings if they are
+        damaged anywhere in the world as a result of various named perils. Some examples
+        are: fire or lightning, windstorm or hail, explosion, smoke, vandalism or
+        malicious mischief, theft, accidental discharge or overflow of water or steam.
+        For a detailed listing of covered perils, please refer to the policy"}, "all_peril_deductible":
+        {"title": "Deductible", "description": "The deductible is the per-occurrence
+        portion of your loss that you are financially responsible for paying before
+        the insurance carrier pays the rest of your claim. The higher the deductible,
+        the lower your premium."}, "hurricane_deductible": {"title": "Hurricane Deductible",
+        "description": "This is a deductible that applies specifically in the case
+        of damage caused by a hurricane."}, "liability_limit": {"title": "Personal
+        Liability", "description": "Liability coverage protects you in the event of
+        bodily injury or damage to someone else''s property for which you are legally
+        liable. The liability coverage has no deductible. This coverage pays the property
+        manager/owner for damages to the unit caused by you as a result of the following
+        perils: Fire, water damage, smoke, and explosion. Your policy also covers
+        damages to your neighbor''s property, up to the policy limit, if you are negligent.
+        In addition, liability coverage will also pay medical expenses up to the policy
+        limits, in the event a guest is injured in your apartment."}, "loss_of_use":
+        {"title": "Loss of Use", "description": "If your property becomes unlivable,
+        costs relating to housing and increased living expenses will be covered."},
+        "replacement_cost": {"title": "Replacement Cost", "description": "If your
+        personal property is damaged by a covered peril we will pay the cost of replacement
+        of the item without deduction for depreciation (what it was worth when you
+        bought it). The item(s) must first be replaced before the full replacement
+        cost can be paid."}, "water_backup": {"title": "Sewer or Drain Backup", "description":
+        "This coverage pays for damage to your personal property as a result of water
+        backup of sewers or drains. The maximum benefit for this endorsement is $2,500
+        for each \"occurrence\". In North Carolina the maximum benefit is $5,000.
+        In Maryland, the maximum benefit is equal to the personal property limit selected.
+        In all states a $250 deductible applies."}, "identity_fraud": {"title": "Identity
+        Fraud", "description": "Identity Fraud Expense Coverage is an endorsement
+        to the Renters Insurance program that helps cover the cost and time it will
+        take to restore your identity. These \"expenses\" include, but are not limited
+        to, attorney''s fees and loss of income, up to $5,000, as a result of time
+        taken off work to talk with law enforcement agencies and credit agencies.
+        Having Identity Fraud Expense Coverage can reimburse you up to $15,000 for
+        expenses as a direct result of identity fraud. Identity theft and fraud refers
+        to the use of wrongfully obtaining someone else''s personal information and
+        using it in a way that includes deception, usually for an economic gain. Identity
+        theft can include stealing your bank account number or credit card number,
+        which can lead to large financial and credibility loss."}, "earthquake_property_coverage":
+        {"title": "Earthquake Coverage", "description": "This coverage pays for damages
+        to your personal property as a result of an earthquake. When selected, the
+        earthquake coverage is equal to the personal property coverage selected, with
+        a $1,500 limit for additional living expenses."}, "earthquake_deductible":
+        {"title": "Earthquake Deductible", "description": "The deductible is 15% of
+        the amount of personal property coverage selected, with a $1,500 limit for
+        additional living expenses."}, "acknowledgment": {"html": "I acknowledge that
+        I have read and understand all applicable <a href=\"https://sure-media.s3.amazonaws.com/html/assurant-disclosures.html\"
+        target=\"_blank\" rel=\"noopener noreferrer\">state disclosures, fraud notices,
+        the notice of cancellation</a>, and the <a href=\"https://sure-media.s3.amazonaws.com/html/assurant-electronic-business-consent.html\"
+        target=\"_blank\" rel=\"noopener noreferrer\">electronic business consent</a>."}},
+        "plan_class": "renters_assurant", "subscription_options": {"payment_cadences":
+        ["annual", "eleven_pay"], "default_cadence": "annual"}}], "dynamic_form":
+        {"screens": {"5d53332070c5df0bc5b9656d": {"title": "Personal Information",
+        "question": "What is your name?", "help_text": null, "next_screen_id": "5d53332070c5df0bc5b9656f",
+        "flags": [], "fields": [{"field_type": "text", "label": "First Name", "help_text":
+        null, "key_name": "pni_first_name", "error_message": "Missing first name",
+        "required": true, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": {"default": null, "special_default": "user_first_name",
+        "regex": "^[a-zA-Z\\s\\u00C0-\\u00FF\\_]+$", "min_choices": null, "max_choices":
+        null, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [], "flags":
+        []}, "subfields": []}, {"field_type": "text", "label": "Middle Name", "help_text":
+        null, "key_name": "pni_middle_name", "error_message": "Missing middle name",
+        "required": false, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": null, "subfields": []}, {"field_type": "text",
+        "label": "Last Name", "help_text": null, "key_name": "pni_last_name", "error_message":
+        "Missing last name", "required": true, "keyboard": {"android_type": 1, "ios_type":
+        "UIKeyboardTypeDefault"}, "widget": null, "settings": {"default": null, "special_default":
+        "user_last_name", "regex": "^[a-zA-Z\\s\\u00C0-\\u00FF]+$", "min_choices":
+        null, "max_choices": null, "max_value": null, "min_value": null, "date_after":
+        null, "date_before": null, "add_button_caption": null, "row_item_name": null,
+        "choices": [], "flags": []}, "subfields": []}, {"field_type": "text", "label":
+        "Phone Number", "help_text": null, "key_name": "pni_phone_number", "error_message":
+        "Missing phone number", "required": true, "keyboard": {"android_type": 3,
+        "ios_type": "UIKeyboardTypePhonePad"}, "widget": "phone_number", "settings":
+        {"default": null, "special_default": "user_phone_number", "regex": null, "min_choices":
+        null, "max_choices": null, "max_value": null, "min_value": null, "date_after":
+        null, "date_before": null, "add_button_caption": null, "row_item_name": null,
+        "choices": [], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b9656e":
+        {"title": "Mailing Address", "question": "What is your mailing address?",
+        "help_text": null, "next_screen_id": null, "flags": ["autocomplete_address_screen"],
+        "fields": [{"field_type": "text", "label": "Address Line 1", "help_text":
+        null, "key_name": "mailing_address_line1", "error_message": "Missing street
+        address", "required": true, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": "autocomplete_address", "settings": {"default": null, "special_default":
+        null, "regex": ".{3,60}", "min_choices": null, "max_choices": null, "max_value":
+        null, "min_value": null, "date_after": null, "date_before": null, "add_button_caption":
+        null, "row_item_name": null, "choices": [], "flags": ["address_line1"]}, "subfields":
+        []}, {"field_type": "text", "label": "Address Line 2", "help_text": null,
+        "key_name": "mailing_address_line2", "error_message": "Missing line 2", "required":
+        false, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": {"default": null, "special_default": null, "regex":
+        ".{0,30}", "min_choices": null, "max_choices": null, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [], "flags": ["address_line2"]}, "subfields":
+        []}, {"field_type": "text", "label": "City", "help_text": null, "key_name":
+        "mailing_address_city", "error_message": "Missing city", "required": true,
+        "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"}, "widget":
+        null, "settings": {"default": null, "special_default": null, "regex": ".{3,}",
+        "min_choices": null, "max_choices": null, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [], "flags": ["address_city"]}, "subfields":
+        []}, {"field_type": "text", "label": "State/Province/Region", "help_text":
+        null, "key_name": "mailing_address_state", "error_message": "Missing state",
+        "required": true, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": {"default": null, "special_default": null, "regex":
+        null, "min_choices": 1, "max_choices": 1, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [{"title": "Alabama (AL)", "value": "AL",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Alaska
+        (AK)", "value": "AK", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "American Samoa (AS)", "value": "AS", "screen_id": null,
+        "help_text": null, "is_selected": false}, {"title": "Arizona (AZ)", "value":
+        "AZ", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Arkansas (AR)", "value": "AR", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "California (CA)", "value": "CA", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Colorado (CO)", "value": "CO", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Connecticut (CT)",
+        "value": "CT", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Delaware (DE)", "value": "DE", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "District Of Columbia (DC)", "value":
+        "DC", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Federated States Of Micronesia (FM)", "value": "FM", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Florida (FL)", "value": "FL", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Georgia (GA)",
+        "value": "GA", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Guam (GU)", "value": "GU", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "Hawaii (HI)", "value": "HI", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Idaho (ID)", "value":
+        "ID", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Illinois (IL)", "value": "IL", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Indiana (IN)", "value": "IN", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Iowa (IA)", "value": "IA", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Kansas (KS)", "value":
+        "KS", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Kentucky (KY)", "value": "KY", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Louisiana (LA)", "value": "LA", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Maine (ME)", "value": "ME", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Marshall Islands
+        (MH)", "value": "MH", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Maryland (MD)", "value": "MD", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Massachusetts (MA)", "value": "MA",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Michigan
+        (MI)", "value": "MI", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Minnesota (MN)", "value": "MN", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Mississippi (MS)", "value": "MS",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Missouri
+        (MO)", "value": "MO", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Montana (MT)", "value": "MT", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Nebraska (NE)", "value": "NE", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Nevada (NV)", "value":
+        "NV", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "New Hampshire (NH)", "value": "NH", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "New Jersey (NJ)", "value": "NJ", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "New Mexico (NM)",
+        "value": "NM", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "New York (NY)", "value": "NY", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "North Carolina (NC)", "value": "NC",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "North
+        Dakota (ND)", "value": "ND", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Northern Mariana Islands (MP)", "value": "MP", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Ohio (OH)", "value":
+        "OH", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Oklahoma (OK)", "value": "OK", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Oregon (OR)", "value": "OR", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Palau (PW)", "value": "PW", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Pennsylvania (PA)",
+        "value": "PA", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Puerto Rico (PR)", "value": "PR", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Rhode Island (RI)", "value": "RI",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "South
+        Carolina (SC)", "value": "SC", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "South Dakota (SD)", "value": "SD", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Tennessee (TN)", "value": "TN", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Texas (TX)", "value":
+        "TX", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Utah (UT)", "value": "UT", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Vermont (VT)", "value": "VT", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Virgin Islands (VI)", "value": "VI",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Virginia
+        (VA)", "value": "VA", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Washington (WA)", "value": "WA", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "West Virginia (WV)", "value": "WV",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Wisconsin
+        (WI)", "value": "WI", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Wyoming (WY)", "value": "WY", "screen_id": null, "help_text":
+        null, "is_selected": false}], "flags": ["address_region"]}, "subfields": []},
+        {"field_type": "text", "label": "ZIP/Postal Code", "help_text": null, "key_name":
+        "mailing_address_postal", "error_message": "Missing ZIP code", "required":
+        true, "keyboard": {"android_type": 2, "ios_type": "UIKeyboardTypeNumberPad"},
+        "widget": null, "settings": {"default": null, "special_default": null, "regex":
+        ".*", "min_choices": null, "max_choices": null, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [], "flags": ["address_postal"]}, "subfields":
+        []}]}, "5d53332070c5df0bc5b9656f": {"title": "Property Address", "question":
+        "Is your mailing address different from your main address?", "help_text":
+        null, "next_screen_id": "5d53332070c5df0bc5b96570", "flags": [], "fields":
+        [{"field_type": "boolean", "label": "Is your mailing address different from
+        your main address?", "help_text": null, "key_name": "has_mailing_address",
+        "error_message": null, "required": true, "keyboard": null, "widget": null,
+        "settings": {"default": null, "special_default": null, "regex": null, "min_choices":
+        1, "max_choices": 1, "max_value": null, "min_value": null, "date_after": null,
+        "date_before": null, "add_button_caption": null, "row_item_name": null, "choices":
+        [{"title": "Yes", "value": true, "screen_id": "5d53332070c5df0bc5b9656e",
+        "help_text": null, "is_selected": false}, {"title": "No", "value": false,
+        "screen_id": null, "help_text": null, "is_selected": false}], "flags": []},
+        "subfields": []}]}, "5d53332070c5df0bc5b96571": {"title": "Property Details",
+        "question": "Is it a mobile or manufactured home?", "help_text": null, "next_screen_id":
+        null, "flags": [], "fields": [{"field_type": "boolean", "label": "Is it a
+        mobile or manufactured home?", "help_text": null, "key_name": "is_mobile_or_manufactured_home",
+        "error_message": null, "required": true, "keyboard": null, "widget": null,
+        "settings": {"default": null, "special_default": null, "regex": null, "min_choices":
+        1, "max_choices": 1, "max_value": null, "min_value": null, "date_after": null,
+        "date_before": null, "add_button_caption": null, "row_item_name": null, "choices":
+        [{"title": "Yes", "value": true, "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "No", "value": false, "screen_id": null, "help_text": null,
+        "is_selected": false}], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96570":
+        {"title": "Property Details", "question": "How would you classify your current
+        residence?", "help_text": null, "next_screen_id": "5d53332070c5df0bc5b96572",
+        "flags": [], "fields": [{"field_type": "text", "label": "How would you classify
+        your current residence?", "help_text": null, "key_name": "dwelling_type",
+        "error_message": null, "required": true, "keyboard": null, "widget": null,
+        "settings": {"default": null, "special_default": null, "regex": null, "min_choices":
+        1, "max_choices": 1, "max_value": null, "min_value": null, "date_after": null,
+        "date_before": null, "add_button_caption": null, "row_item_name": null, "choices":
+        [{"title": "Apartment / Condominium", "value": "A", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Townhouse / Duplex / Triplex", "value":
+        "T", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Single family home", "value": "S", "screen_id": "5d53332070c5df0bc5b96571",
+        "help_text": null, "is_selected": false}, {"title": "Dorm / Student Housing",
+        "value": "D", "screen_id": null, "help_text": null, "is_selected": false}],
+        "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96572": {"title": "Property
+        Details", "question": "Does your lease require all residents at the property
+        to carry renters insurance?", "help_text": null, "next_screen_id": "5d53332070c5df0bc5b96574",
+        "flags": [], "fields": [{"field_type": "boolean", "label": "Does your lease
+        require all residents at the property to carry renters insurance?", "help_text":
+        null, "key_name": "mandatory_insurance_requirement", "error_message": null,
+        "required": true, "keyboard": null, "widget": null, "settings": {"default":
+        null, "special_default": null, "regex": null, "min_choices": 1, "max_choices":
+        1, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [{"title":
+        "Yes", "value": true, "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "No", "value": false, "screen_id": null, "help_text": null,
+        "is_selected": false}], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96573":
+        {"title": "Property Details", "question": "What was the date of the most recent
+        loss?", "help_text": null, "next_screen_id": null, "flags": [], "fields":
+        [{"field_type": "text", "label": "Date of Loss", "help_text": null, "key_name":
+        "loss_date", "error_message": "Missing date of loss", "required": true, "keyboard":
+        null, "widget": "date_picker", "settings": {"default": null, "special_default":
+        null, "regex": null, "min_choices": null, "max_choices": null, "max_value":
+        null, "min_value": null, "date_after": "2016-08-13", "date_before": "2019-08-14",
+        "add_button_caption": null, "row_item_name": null, "choices": [], "flags":
+        []}, "subfields": []}]}, "5d53332070c5df0bc5b96574": {"title": "Property Details",
+        "question": "Excluding storms, floods, and other natural causes, how many
+        losses have you had in the past three years?", "help_text": "Natural Causes:
+        Losses caused by lightning, windstorm, hurricane, tornado, sinkhole collapse,
+        flood or rising water, earthquake, earth movement, freezing, hail, sinking,
+        landslide, snowstorm, volcanic eruption and wildfire.\n\nLosses: Occurrences
+        such as theft or physical damage to property, whether covered by insurance
+        or not or occurrences such as property stolen or physical damage to property,
+        whether covered by insurance or not.", "next_screen_id": "5d53332070c5df0bc5b96575",
+        "flags": [], "fields": [{"field_type": "text", "label": "Excluding storms,
+        floods, and other natural causes, how many losses have you had in the past
+        three years?", "help_text": null, "key_name": "number_of_losses", "error_message":
+        null, "required": true, "keyboard": null, "widget": null, "settings": {"default":
+        null, "special_default": null, "regex": null, "min_choices": 1, "max_choices":
+        1, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [{"title":
+        "None", "value": "0", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "One", "value": "1", "screen_id": "5d53332070c5df0bc5b96573",
+        "help_text": null, "is_selected": false}, {"title": "Two or more", "value":
+        "2+", "screen_id": null, "help_text": null, "is_selected": false}], "flags":
+        []}, "subfields": []}]}, "5d53332070c5df0bc5b96575": {"title": "Property Details",
+        "question": "Do you own or care for an animal that has caused bodily injury
+        or harm? (Excluding service animals)", "help_text": "Service animal is defined
+        as guide dogs, signal dogs, or any other service animals that are trained
+        to do work or perform a task for the benefit of an individual with a disability.",
+        "next_screen_id": "5d53332070c5df0bc5b96577", "flags": [], "fields": [{"field_type":
+        "boolean", "label": "Do you own or care for an animal that has caused bodily
+        injury or harm?", "help_text": null, "key_name": "animal_injury", "error_message":
+        null, "required": true, "keyboard": null, "widget": null, "settings": {"default":
+        null, "special_default": null, "regex": null, "min_choices": 1, "max_choices":
+        1, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [{"title":
+        "Yes", "value": true, "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "No", "value": false, "screen_id": null, "help_text": null,
+        "is_selected": false}], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96576":
+        {"title": "Personal Details", "question": "What is the name of the additional
+        person you want named on the policy?", "help_text": null, "next_screen_id":
+        null, "flags": [], "fields": [{"field_type": "text", "label": "First Name",
+        "help_text": null, "key_name": "sni_first_name", "error_message": "Missing
+        first name", "required": true, "keyboard": {"android_type": 1, "ios_type":
+        "UIKeyboardTypeDefault"}, "widget": null, "settings": {"default": null, "special_default":
+        null, "regex": "^.+$", "min_choices": null, "max_choices": null, "max_value":
+        null, "min_value": null, "date_after": null, "date_before": null, "add_button_caption":
+        null, "row_item_name": null, "choices": [], "flags": []}, "subfields": []},
+        {"field_type": "text", "label": "Last Name", "help_text": null, "key_name":
+        "sni_last_name", "error_message": "Missing last name", "required": true, "keyboard":
+        {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"}, "widget": null,
+        "settings": {"default": null, "special_default": null, "regex": "^.+$", "min_choices":
+        null, "max_choices": null, "max_value": null, "min_value": null, "date_after":
+        null, "date_before": null, "add_button_caption": null, "row_item_name": null,
+        "choices": [], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96577":
+        {"title": "Personal Details", "question": "Would you like to add another person
+        (unrelated to you) to your rental policy?", "help_text": "An Additional Applicant
+        is a person that is not related to the primary applicant but resides in the
+        same location as the primary applicant. This additional applicant would like
+        protection under this policy.", "next_screen_id": "5d53332070c5df0bc5b9657a",
+        "flags": [], "fields": [{"field_type": "boolean", "label": "Would you like
+        to add another person (unrelated to you) to your rental policy?", "help_text":
+        null, "key_name": "has_sni", "error_message": null, "required": true, "keyboard":
+        null, "widget": null, "settings": {"default": null, "special_default": null,
+        "regex": null, "min_choices": 1, "max_choices": 1, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [{"title": "Yes", "value": true, "screen_id":
+        "5d53332070c5df0bc5b96576", "help_text": null, "is_selected": false}, {"title":
+        "No", "value": false, "screen_id": null, "help_text": null, "is_selected":
+        false}], "flags": []}, "subfields": []}]}, "5d53332070c5df0bc5b96578": {"title":
+        "Personal Details", "question": "What is your interested party\u2019s address
+        information?", "help_text": null, "next_screen_id": null, "flags": ["autocomplete_address_screen"],
+        "fields": [{"field_type": "text", "label": "Address Line 1", "help_text":
+        null, "key_name": "intrested_party_address_line1", "error_message": "Missing
+        intersted party street address", "required": true, "keyboard": {"android_type":
+        1, "ios_type": "UIKeyboardTypeDefault"}, "widget": "autocomplete_address",
+        "settings": {"default": null, "special_default": null, "regex": ".{3,60}",
+        "min_choices": null, "max_choices": null, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [], "flags": ["address_line1"]}, "subfields":
+        []}, {"field_type": "text", "label": "Address Line 2", "help_text": null,
+        "key_name": "intrested_party_address_line2", "error_message": "Missing intersted
+        party line 2", "required": false, "keyboard": {"android_type": 1, "ios_type":
+        "UIKeyboardTypeDefault"}, "widget": null, "settings": {"default": null, "special_default":
+        null, "regex": ".{0,30}", "min_choices": null, "max_choices": null, "max_value":
+        null, "min_value": null, "date_after": null, "date_before": null, "add_button_caption":
+        null, "row_item_name": null, "choices": [], "flags": ["address_line2"]}, "subfields":
+        []}, {"field_type": "text", "label": "City", "help_text": null, "key_name":
+        "intrested_party_address_city", "error_message": "Missing intersted party
+        city", "required": true, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": {"default": null, "special_default": null, "regex":
+        ".{3,}", "min_choices": null, "max_choices": null, "max_value": null, "min_value":
+        null, "date_after": null, "date_before": null, "add_button_caption": null,
+        "row_item_name": null, "choices": [], "flags": ["address_city"]}, "subfields":
+        []}, {"field_type": "text", "label": "State/Province/Region", "help_text":
+        null, "key_name": "intrested_party_address_state", "error_message": "Missing
+        intersted party state", "required": true, "keyboard": {"android_type": 1,
+        "ios_type": "UIKeyboardTypeDefault"}, "widget": null, "settings": {"default":
+        null, "special_default": null, "regex": null, "min_choices": 1, "max_choices":
+        1, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [{"title":
+        "Alabama (AL)", "value": "AL", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Alaska (AK)", "value": "AK", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "American Samoa (AS)", "value": "AS",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Arizona
+        (AZ)", "value": "AZ", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Arkansas (AR)", "value": "AR", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "California (CA)", "value": "CA", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Colorado (CO)",
+        "value": "CO", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Connecticut (CT)", "value": "CT", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Delaware (DE)", "value": "DE", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "District Of Columbia
+        (DC)", "value": "DC", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Federated States Of Micronesia (FM)", "value": "FM", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Florida (FL)",
+        "value": "FL", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Georgia (GA)", "value": "GA", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "Guam (GU)", "value": "GU", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Hawaii (HI)", "value":
+        "HI", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Idaho (ID)", "value": "ID", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Illinois (IL)", "value": "IL", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Indiana (IN)", "value": "IN", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Iowa (IA)", "value":
+        "IA", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Kansas (KS)", "value": "KS", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Kentucky (KY)", "value": "KY", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Louisiana (LA)", "value": "LA", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Maine (ME)", "value":
+        "ME", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Marshall Islands (MH)", "value": "MH", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "Maryland (MD)", "value": "MD", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Massachusetts (MA)",
+        "value": "MA", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Michigan (MI)", "value": "MI", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Minnesota (MN)", "value": "MN", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Mississippi (MS)",
+        "value": "MS", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Missouri (MO)", "value": "MO", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Montana (MT)", "value": "MT", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Nebraska (NE)",
+        "value": "NE", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Nevada (NV)", "value": "NV", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "New Hampshire (NH)", "value": "NH", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "New Jersey (NJ)",
+        "value": "NJ", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "New Mexico (NM)", "value": "NM", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "New York (NY)", "value": "NY", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "North Carolina
+        (NC)", "value": "NC", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "North Dakota (ND)", "value": "ND", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Northern Mariana Islands (MP)", "value":
+        "MP", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Ohio (OH)", "value": "OH", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Oklahoma (OK)", "value": "OK", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Oregon (OR)", "value": "OR", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Palau (PW)", "value":
+        "PW", "screen_id": null, "help_text": null, "is_selected": false}, {"title":
+        "Pennsylvania (PA)", "value": "PA", "screen_id": null, "help_text": null,
+        "is_selected": false}, {"title": "Puerto Rico (PR)", "value": "PR", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Rhode Island (RI)",
+        "value": "RI", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "South Carolina (SC)", "value": "SC", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "South Dakota (SD)", "value": "SD",
+        "screen_id": null, "help_text": null, "is_selected": false}, {"title": "Tennessee
+        (TN)", "value": "TN", "screen_id": null, "help_text": null, "is_selected":
+        false}, {"title": "Texas (TX)", "value": "TX", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Utah (UT)", "value": "UT", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Vermont (VT)",
+        "value": "VT", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "Virgin Islands (VI)", "value": "VI", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Virginia (VA)", "value": "VA", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Washington (WA)",
+        "value": "WA", "screen_id": null, "help_text": null, "is_selected": false},
+        {"title": "West Virginia (WV)", "value": "WV", "screen_id": null, "help_text":
+        null, "is_selected": false}, {"title": "Wisconsin (WI)", "value": "WI", "screen_id":
+        null, "help_text": null, "is_selected": false}, {"title": "Wyoming (WY)",
+        "value": "WY", "screen_id": null, "help_text": null, "is_selected": false}],
+        "flags": ["address_region"]}, "subfields": []}, {"field_type": "text", "label":
+        "ZIP/Postal Code", "help_text": null, "key_name": "intrested_party_address_postal",
+        "error_message": "Missing intersted party ZIP code", "required": true, "keyboard":
+        {"android_type": 2, "ios_type": "UIKeyboardTypeNumberPad"}, "widget": null,
+        "settings": {"default": null, "special_default": null, "regex": ".*", "min_choices":
+        null, "max_choices": null, "max_value": null, "min_value": null, "date_after":
+        null, "date_before": null, "add_button_caption": null, "row_item_name": null,
+        "choices": [], "flags": ["address_postal"]}, "subfields": []}]}, "5d53332070c5df0bc5b96579":
+        {"title": "Personal Details", "question": "What is your interested party\u2019s
+        name?", "help_text": null, "next_screen_id": "5d53332070c5df0bc5b96578", "flags":
+        [], "fields": [{"field_type": "text", "label": "Name", "help_text": null,
+        "key_name": "intrested_party_name", "error_message": "Missing name", "required":
+        true, "keyboard": {"android_type": 1, "ios_type": "UIKeyboardTypeDefault"},
+        "widget": null, "settings": {"default": null, "special_default": null, "regex":
+        "^.{3,30}$", "min_choices": null, "max_choices": null, "max_value": null,
+        "min_value": null, "date_after": null, "date_before": null, "add_button_caption":
+        null, "row_item_name": null, "choices": [], "flags": []}, "subfields": []}]},
+        "5d53332070c5df0bc5b9657a": {"title": "Personal Details", "question": "Do
+        you want to inform an interested party about your coverage? (i.e. Rental community
+        or property manager)?", "help_text": "Interested party is your rental community
+        or property manager who requires to be informed of your coverage. You acknowledge
+        we will send this information to the Interested Party.", "next_screen_id":
+        null, "flags": [], "fields": [{"field_type": "boolean", "label": "Do you want
+        us to inform anyone about your coverage? (i.e. A rental community or property
+        manager)?", "help_text": null, "key_name": "has_intrested_party", "error_message":
+        null, "required": true, "keyboard": null, "widget": null, "settings": {"default":
+        null, "special_default": null, "regex": null, "min_choices": 1, "max_choices":
+        1, "max_value": null, "min_value": null, "date_after": null, "date_before":
+        null, "add_button_caption": null, "row_item_name": null, "choices": [{"title":
+        "Yes", "value": true, "screen_id": "5d53332070c5df0bc5b96579", "help_text":
+        null, "is_selected": false}, {"title": "No", "value": false, "screen_id":
+        null, "help_text": null, "is_selected": false}], "flags": []}, "subfields":
+        []}]}}, "start_screen_id": "5d53332070c5df0bc5b9656d", "version": 1}}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 22:01:04 GMT
+recorded_with: VCR 5.0.0

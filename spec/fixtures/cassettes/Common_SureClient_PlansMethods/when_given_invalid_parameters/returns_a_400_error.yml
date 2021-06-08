@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sureapp.com/api/partner/v1.1/protections/renters/plans
+    body:
+      encoding: UTF-8
+      string: '{"property_address":{"street_address":"7400 River Road","city":"North
+        Bergen","region":"NJ","country_code":"US"}}'
+    headers:
+      Authorization:
+      - Token p1hIJDYFkfpiPrA92Q73WX0FzlMROye8STmwt6xuLN5fcKGaj
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 13 Aug 2019 22:01:05 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '150'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With,
+        X-Auth-Token, X-Environment, X-Unique-Key
+      Access-Control-Expose-Headers:
+      - X-Request-ID, X-Total-Rows
+      Access-Control-Allow-Methods:
+      - POST, OPTIONS
+      X-Request-Id:
+      - hrq_a57b76330d4044d9bd40e399bcd235d6
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"error": {"message": "We could not accept your request", "code": "invalid_input",
+        "fields": {"property_address__postal": "Postal field is missing"}}}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 22:01:05 GMT
+recorded_with: VCR 5.0.0

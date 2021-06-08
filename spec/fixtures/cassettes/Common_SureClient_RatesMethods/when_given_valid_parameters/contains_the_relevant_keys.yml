@@ -1,0 +1,118 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.sureapp.com/api/partner/v1.1/protections/renters/rates
+    body:
+      encoding: UTF-8
+      string: '{"property_address":{"street_address":"7400 River Road","city":"North
+        Bergen","region":"NJ","postal":"07047","country_code":"US"},"details":{"pni_first_name":"Art","pni_last_name":"Garfunkel","pni_phone_number":"212-889-7766","has_mailing_address":false,"dwelling_type":"A","mandatory_insurance_requirement":true,"number_of_losses":"0","animal_injury":false,"has_sni":false,"has_intrested_party":false,"property_special_city":"New
+        York"},"settings":{"policy_effective_date":"2019-08-23"},"plan_id":"5977a84e49d11179e7557da3"}'
+    headers:
+      Authorization:
+      - Token p1hIJDYFkfpiPrA92Q73WX0FzlMROye8STmwt6xuLN5fcKGaj
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Aug 2019 22:01:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5851'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With,
+        X-Auth-Token, X-Environment, X-Unique-Key
+      Access-Control-Expose-Headers:
+      - X-Request-ID, X-Total-Rows
+      Access-Control-Allow-Methods:
+      - POST, OPTIONS
+      X-Request-Id:
+      - hrq_23a76b1f15644ed7adb5cb48a75881fb
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"rates": {"personal_property": [{"personal_property_coverage": 10000,
+        "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        10000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        10000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        15000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        15000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        15000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        20000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        20000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        20000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        25000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        25000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        25000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        30000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        30000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        30000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        35000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        35000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        35000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        40000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        40000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        40000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        45000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        45000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        45000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        50000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        50000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        50000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        55000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        55000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        55000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        60000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        60000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        60000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        65000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        65000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        65000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        70000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        70000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        70000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        75000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        75000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        75000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        80000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        80000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        80000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        85000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        85000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        85000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        90000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        90000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        90000, "all_peril_deductible": 500, "hurricane_deductible": null}, {"personal_property_coverage":
+        95000, "all_peril_deductible": 100, "hurricane_deductible": null}, {"personal_property_coverage":
+        95000, "all_peril_deductible": 250, "hurricane_deductible": null}, {"personal_property_coverage":
+        95000, "all_peril_deductible": 500, "hurricane_deductible": null}], "liability":
+        [{"liability_limit": 100000, "medical_limit": null}], "allow_pet_damage":
+        false, "allow_water_backup": true, "allow_earthquake": false, "allow_replacement_cost":
+        true, "allow_identity_fraud": true, "defaults": {"all_peril_deductible": 500,
+        "liability_limit": 100000, "personal_property_coverage": 10000, "hurricane_deductible":
+        null, "medical_limit": null, "include_pet_damage": false, "include_water_backup":
+        false, "include_identity_fraud": false, "include_replacement_cost": true}},
+        "quote_id": "QRASUT1XOSH"}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 22:01:01 GMT
+recorded_with: VCR 5.0.0
